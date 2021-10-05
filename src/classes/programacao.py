@@ -59,4 +59,4 @@ class Programacao:
     def pausar(self):
         print("Programação sendo pausada")
 
-    
+
