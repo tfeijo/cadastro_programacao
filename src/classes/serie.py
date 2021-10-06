@@ -7,10 +7,10 @@ class Serie(Programacao):
     
     def __str__(self):
         return f'''
-        Detalhes da série {self.__nome}:
-            Gênero: {self.__genero}
-            Idioma: {self.__idioma}
-            Legenda: {self.__legenda}
-            Ano: {self.__ano}
+        Detalhes da série {self.nome}:
+            Gênero: {self.genero}
+            Idioma: {self.idioma}
+            Legenda: {self.legenda}
+            Ano: {self.ano}
             Duração: {self.__duracao} episódio(s)
         '''
