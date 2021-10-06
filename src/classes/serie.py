@@ -5,6 +5,10 @@ class Serie(Programacao):
         super().__init__(id, nome, genero, idioma, legenda, ano)
         self.__duracao = str(duracao).title()
     
+    @property
+    def duracao(self):
+        return self.__duracao
+
     def __str__(self):
         return f'''
         Detalhes da série {self.nome}:
